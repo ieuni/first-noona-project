@@ -1,0 +1,29 @@
+body{margin: 0;
+    background-image: url("img/1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.container{margin: 0 auto;
+        background-color: white;
+        width: 80%;
+        height: 100vh;}
+
+.task-area{border: 1px solid lightgray;}
+
+.task-tabs{display: flex;
+        border: 1px solid lightgray;
+        position: relative;}
+
+.task-tabs div{padding: 1em;}
+
+#under-line{height: 4px;
+            background-color: pink;
+            position: absolute;
+            width: 80px;
+            left: 0px;
+            top: 52px;
+            padding: 0;}
+
+.task{display: flex;
+    justify-content: space-between;
+    padding: 1em;}
