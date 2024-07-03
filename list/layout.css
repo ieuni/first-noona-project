@@ -27,3 +27,9 @@ body{margin: 0;
 .task{display: flex;
     justify-content: space-between;
     padding: 1em;}
+
+.task-done{
+        text-decoration: line-through;
+        background-color: #d5d5d5;
+        width: 80%;
+}
